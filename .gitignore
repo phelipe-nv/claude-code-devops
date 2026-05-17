@@ -106,3 +106,9 @@ node_modules/
 *.Identifier
 .docker_vol/
 .docker/
+
+# Terraform
+terraform/.terraform/
+terraform/terraform.tfstate*
+terraform/terraform.tfvars
+terraform/*.tfplan
